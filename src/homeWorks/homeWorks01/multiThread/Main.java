@@ -20,7 +20,7 @@ public class Main {
 
         // Получение общего количества чисел
         int totalCount = MyThread.getCounter();
-        System.out.println("Количество чисел, делящихся на 21 и содержащих цифру 3: " + totalCount);
+        System.out.println("Количество чисел,делящихся на 21 и содержащих цифру 3: " + totalCount);
     }
 }
 

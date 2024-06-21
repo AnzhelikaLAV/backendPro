@@ -24,7 +24,7 @@ class MyThread extends Thread {
     public void run() {
         for (int i = start; i <= end; i++) {
             if (i % 21 == 0 && String.valueOf(i).contains("3")) {
-                incrementCounter(); // Увеличение счетчика синхронизировано
+                incrementCounter();
             }
         }
     }
